@@ -61,13 +61,78 @@ for (const i of person2) {
 /* -------------------------------- Funciones ------------------------------- */
 
 // Función tradicional
-function add(a, b) {
+function add1(a, b) {
 	return a + b;
 }
 
-console.log(add(2, 3));
+console.log(add1(2, 3));
 
 // Función flecha
 myFn = (a, b) => a + b;
 
 console.log(myFn(4, 6));
+
+/* --------------------------- Template Strings -------------------------- */
+
+const tmpStr = `Hola soy ${person1.name}`;
+console.log(tmpStr);
+
+/* ---------------------------- Destructuraciones --------------------------- */
+
+// Objeto
+const { name, age } = person2; // Valores tomados en base a las claves del objeto.
+
+console.log(name, age);
+
+// Array
+const arr = ['Lucas', 'Nahuel', 'Marcos'];
+const [nameArr1, nameArr2, nameArr3] = arr; // Valores tomados en base al orden del arreglo.
+
+console.log(nameArr1, nameArr2, nameArr3);
+
+/* ----------------------------- Spread Operator ---------------------------- */
+
+const person4 = {
+	...person2,
+	name: 'Nahuel'
+};
+
+console.table(person4);
+
+/* ------------------------------ Rest Operator ----------------------------- */
+
+/*
+	El <args> (parámetro) que utiliza el spread operator es un dato de tipo <array>.
+*/
+
+function add2(...args) {
+	let c = 0;
+	for (const arg of args) {
+		c += arg;
+	}
+
+	return c;
+}
+
+console.log(add2(1, 5, 7, 8, 9, 3, 1));
+
+/* ------------------------- Parámetros Por Defecto ------------------------- */
+
+function add3(a = 1, b = 1) {
+	return a + b;
+}
+
+console.log(add3());
+
+/* ----------------------- Document Object Model (DOM) ---------------------- */
+
+/*
+	Abrir el archivo index.html y observar la consola de desarrollador.
+*/
+
+const getAllElements = () => {
+	const elements = document.querySelectorAll('*');
+	console.log(elements);
+};
+
+getAllElements();
