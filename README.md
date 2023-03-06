@@ -9,7 +9,6 @@
 <p align="center">
     <a href="#----summary">Summary</a> •
     <a href="#----installation">Installation</a> •
-    <a href="#----available-scripts">Available Scripts</a> •
     <a href="#----license">License</a> •
     <a href="#----acknowledgments">Acknowledgments</a> •
     <a href="#----contact">Contact</a>
@@ -33,10 +32,10 @@
     Clone the repository, install <a href="https://nodejs.org/es/" target="_blank">Node.js</a> (runtime environment) and use <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> (code editor). Then run command <code>npm install</code> to install all packages, necessary for the repository. Done, now you have to different ways to test each app:
     <ul>
         <li>
-            <strong>Vite react app:</strong> if the app was created with <code>npm create vite@latest</code>, you have to run command <code>npm run dev</code> to start a dev server, where you are going to see a preview of this app.
+            <strong>Vite react app:</strong> if the app was created with <code>npm create vite@latest</code>, you have to run command <code>npm run dev</code> to start a dev server, where you are going to see a preview of that app.
         </li>
         <li>
-            <strong>Create react app:</strong> if the app was created with <code>npx create-react-app</code>, you have to run command <code>npm start</code> to start a dev server, where you are going to see a preview of this app.
+            <strong>Create react app:</strong> if the app was created with <code>npx create-react-app</code>, you have to run command <code>npm start</code> to start a dev server, where you are going to see a preview of that app.
         </li>
     </ul>
 </p>
@@ -46,20 +45,6 @@
         <strong>• Important:</strong>
         You have to run <code>npm install</code> on each folder app to download necessary dependencies.
     </i>
-</p>
-
-<h2>
-    Available Scripts
-</h2>
-<p>
-    <ul>
-        <li>
-            <code>npm start</code>: Runs the app in the development mode. Open <a href="http://localhost:3000" target="_blank">http://localhost:3000</a> to view it in your browser. The page will reload when you make changes. You may also see any lint errors in the console.
-        </li>
-        <li>
-            <code>npm run dev</code>: Runs the app in the development mode. Open <a href="http://localhost:3000" target="_blank">http://localhost:3000</a> to view it in your browser. The page will reload when you make changes. You may also see any lint errors in the console.
-        </li>
-    </ul>
 </p>
 
 <h2>
