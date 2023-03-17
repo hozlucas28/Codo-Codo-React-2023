@@ -1,15 +1,15 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'
 
-export const MyComponent = () => {
-	const [state, setState] = useState(0);
+export const Counter = () => {
+	const [state, setState] = useState(0)
 
 	const increase = () => {
-		setState(state + 1);
-	};
+		setState(state + 1)
+	}
 
 	const decrease = () => {
-		setState(state - 1);
-	};
+		setState(state - 1)
+	}
 
 	return (
 		<div>
@@ -19,5 +19,5 @@ export const MyComponent = () => {
 			<button onClick={increase}>+</button>
 			<button onClick={decrease}>-</button>
 		</div>
-	);
-};
+	)
+}
