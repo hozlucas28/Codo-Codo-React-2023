@@ -9,6 +9,7 @@
 <p align="center">
     <a href="#----summary">Summary</a> •
     <a href="#----installation">Installation</a> •
+    <a href="#----related">Related</a> •
     <a href="#----license">License</a> •
     <a href="#----acknowledgments">Acknowledgments</a> •
     <a href="#----contact">Contact</a>
@@ -45,6 +46,17 @@
         <strong>• Important:</strong>
         You have to run <code>npm install</code> on each folder app to download necessary dependencies.
     </i>
+</p>
+
+<h2>
+    Related
+</h2>
+<p>
+    <ul>    
+        <li>
+            <a href="https://github.com/hozlucas28/Codo-Codo-React-Project-01-2023" target="_blank">Repository of first project</a>
+        </li>
+    </ul>
 </p>
 
 <h2>
