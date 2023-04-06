@@ -56,6 +56,9 @@
         <li>
             <a href="https://github.com/hozlucas28/Codo-Codo-React-Project-01-2023" target="_blank">Repository of first project</a>
         </li>
+        <li>
+            <a href="https://github.com/hozlucas28/Codo-Codo-React-Project-02-2023" target="_blank">Repository of second project</a>
+        </li>
     </ul>
 </p>
 
